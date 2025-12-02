@@ -1,3 +1,8 @@
-from sqlalchemy.orm import declarative_base
+# app/models/base.py
 
-Base = declarative_base()
+# IMPORTANT:
+# All models must share a single SQLAlchemy Base object.
+# db.Base is the one Alembic and the ORM both use.
+from app.core.db import Base
+
+__all__ = ["Base"]
