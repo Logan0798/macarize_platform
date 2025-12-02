@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+*.env
+
+# FastAPI/Uvicorn logs
+*.log
+
+# Database stuff
+*.sql
+*.db
+pgdata/
+db_data/
+
+# Docker
+*.pid
+
+# Node / React frontend
+frontend/node_modules/
+frontend/.parcel-cache/
+frontend/dist/
+
+# VS Code / OS
+.vscode/
+.DS_Store
+Thumbs.db
